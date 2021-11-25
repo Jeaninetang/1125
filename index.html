@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<table border = "1" style = "width: 100%">
+        <thead>
+          <td colsapn="3" align = "center" > About--110306012</td>
+        </thead>
+       <tr>
+          <td rowspan = "3"><img src = "3-1F304145146.jpg" width = "100" height = 80 ><br>personal photo</br>
+          <td colsapan ="2">
+             <form>Name:<input type="text" name="name" size="25" maxlength="50">
+             <br>
+             <form>Gender
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other
+           </br></td>
+        <tr><td>Country:
+            <form action="/action_page.php">
+            <select name="Country">
+            <option value="Taipei">Taipei</option> 
+            <option value="Tainan">Tainan</option> 
+            <option value="Taichung">Taichung</option> 
+            <option value="Taoyuan">Taoyuan</option>          
+            </select>
+        </td>
+
+        <tr><td colspan="2">
+            <form action="action_page.php" method="get">
+            <input type="checkbox" name="hobby" value="swimming">Swimming    
+            <input type="checkbox" name="hobby" value="volleyball">Volleyball  
+            <input type="checkbox" name="hobby" value="movie">Movie  
+            <input type="checkbox" name="hobby" value="game">Game  
+            <input type="checkbox" name="hobby" value="sleep">Sleep</td></tr>
+        <tr><td>Skill</td>
+        
+             <td colspan="2">
+             <form action="action_page.php" method="get">      
+             <input type="checkbox" name="skill" value="Java">Java
+             <input type="checkbox" name="skill" value="Html">Html
+             <input type="checkbox" name="skill" value="Python">Python
+             <input type="checkbox" name="skill" value="Microsoft">Microsoft
+             <input type="checkbox" name="skill" value="Premiere">Premiere
+            </td></tr>
+        
+            <tr><td colspan="3">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+
+             </form>   
+
+
+
+</body>
+</html>
